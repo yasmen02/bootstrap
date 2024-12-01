@@ -1,0 +1,46 @@
+Bootstrap is a free front-end framework for faster and easier web development
+
+Bootstrap also gives you the ability to easily create responsive designs
+
+Why Use Bootstrap?
+
+1-Easy to use
+2-Responsive features
+3-Mobile-first approach
+4-Browser compatibility
+
+Where to Get Bootstrap?
+There are two ways to start using Bootstrap on your own web site.
+
+1-Download Bootstrap from getbootstrap.com
+2-Include Bootstrap from a CDN -> 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+One advantage of using the Bootstrap CDN:
+Many users already have downloaded Bootstrap from MaxCDN when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.
+
+*Grid Classes
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+
+*Bootstrap Text/Typography
+<small>
+In Bootstrap the HTML <small> element is used to create a lighter, secondary text in any heading:
+<mark>
+
+
+
+
+
+
+
